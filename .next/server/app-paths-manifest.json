@@ -1,0 +1,6 @@
+{
+  "/page": "app/page.js",
+  "/fastmcp/page": "app/fastmcp/page.js",
+  "/extension/page": "app/extension/page.js",
+  "/claude/page": "app/claude/page.js"
+}
