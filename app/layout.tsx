@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/react";   // ⬅️ ADD THIS
 
 export const metadata: Metadata = {
   title: "PromptSuggestion MCP | Smart Dislike for LLMs",
@@ -73,6 +74,8 @@ export default function RootLayout({
             </p>
           </footer>
         </div>
+
+        <Analytics />   {/* ⬅️ ADD THIS */}
       </body>
     </html>
   );
